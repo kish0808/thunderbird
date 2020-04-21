@@ -1,0 +1,16 @@
+@import 'sass-toolkit/stylesheets/toolkit/kickstart';
+@import 'breakpoint-sass/stylesheets/breakpoint';
+
+// Theme configuration.
+@import '00-config/**/*';
+
+// Mixins.
+@import '04-mixins/**/*.scss';
+
+// Sass files based on SMACSS
+@import '01-base/**/*';
+@import '02-layout/**/*';
+@import '03-component/**/*';
+
+// Flowers
+@import 'vendor/**/*';

@@ -1,0 +1,14 @@
+.mobile-canvas {
+  padding: 0 5px;
+  min-height: 20px;
+  display: flex;
+  width: 100%;
+  .brand-name {
+    flex-basis: 65%;
+  }
+  .burger-menu{
+    line-height: 5px;
+    background: #0000;
+    border-color: #0000;
+  }
+}

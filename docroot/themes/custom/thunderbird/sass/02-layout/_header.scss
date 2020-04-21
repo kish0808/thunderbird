@@ -1,0 +1,9 @@
+.toolbar-fixed {
+  &.toolbar-vertical {
+    .acquia-active-subscription {
+      &.toolbar-icon {
+        display: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,252 @@
+body {
+  font-family: ProximaNova,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #666;
+}
+.dialog-off-canvas-main-canvas {
+  background-color : #febc01;
+}
+
+.entity-browser-media-browser-form {
+  background-color: #fff;
+input[type='checkbox']{
+  display: none;
+}
+  
+input[name='upload_remove_button']{
+  display: none;
+}
+
+}
+img {
+  + div.form-item-entity-image-0-alt {
+    display: none;
+  }
+}
+
+div.form-item-entity-revision-log-message-0-value {
+  display: none;
+}
+
+.simplelogin-form input[type="submit"],
+.simplelogin-form input{
+ padding: 0px;
+}
+
+.uk-navbar-nav>li>a,
+.uk-tab>*>a {
+  color: #874e05;
+}
+a {
+  color: #874d04;
+}
+.uk-logo {
+  display: none;
+}
+
+.uk-navbar-item {
+  .uk-button-link {
+    color: #874e05;
+  }
+}
+
+//Footer link color
+
+.region-footer {
+  .uk-navbar-nav > li > a {
+    color: #fff !important;
+  }
+}
+
+
+.transparent-container,
+.transparent-block {
+  background: #fff;
+  padding-top: 20px;
+}
+
+
+    .show-focus {
+      &:focus {
+        @include outline-style;
+      }
+    }
+
+    .uou-inline-block {
+      display: inline-block;
+    }
+
+    input[value='_none'] {
+      display: none;
+
+      & + span {
+        display: none;
+      }
+    }
+
+    .field--type-datetime {
+      h4 {
+        font-size: 0.875rem;
+        margin-bottom: 5px;
+        line-height: inherit;
+      }
+    }
+
+    .block-field-blockuseruseruser-picture {
+      text-align: center;
+
+      > div.uk-margin {
+        display: inline-block;
+      }
+    }
+
+    .user-bio {
+      display: block;
+      text-align: center;
+
+      .layout__region--second {
+        .block-field-blockuseruserfield-first-name,
+        .block-field-blockuseruserfield-last-name {
+          font-size: 24px;
+        }
+
+        .block-field-blockuseruserfield-work-location,
+        .block-field-blockuseruserfield-first-name,
+        .block-field-blockuseruserfield-last-name,
+        .block-field-blockuseruserfield-native-district,
+        .block-field-blockuseruserfield-gender{
+          display: inline-flex;
+          padding: 0 10px;
+        }
+      }
+
+      .block-field-blockuseruserfield-short-description {
+        max-width: 500px;
+        margin: 0 auto;
+      }
+    }
+
+    .biodata-paper {
+      padding-top: 20px;
+      margin-top: 20px;
+      background: #f6f6f6;
+      > .layout__region.layout__region--second {
+        margin: 0 auto;
+        padding: 50px 50px;
+        padding-left: 60px;
+        background-image: url(/themes/custom/monalisa/img/lakhota.jpg);
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 792px;
+        background-size: contain;
+        color: #000;
+       .user-bio-field {
+         color: #64031d;
+        }
+
+        .user-bio-label {
+          width: 110px;
+        }
+
+        .user-bio-field,
+        .user-bio-label{
+          display: table-cell;
+          padding: 5px 0;
+        }
+      }
+    }
+
+    li.pager__item {
+      list-style: none;
+    }
+
+    .ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front {
+      @include breakpoint($uk-breakpoint-s) {
+        width: 100% !important;
+      }
+      z-index: 999;
+    }
+
+    .user-grid {
+      .uk-first-column {
+        color: black;
+        width: 40%;
+      }
+    }
+
+    .uk-navbar-item {
+      a[title='Home'] {
+        text-transform: capitalize;
+        font-size: 1.5rem;
+      }
+
+      .slogan {
+        font-family: cursive;
+        text-transform: capitalize;
+      }
+    }
+
+    #monalisa-account-menu,
+    #monalisa-main-menu {
+      width: 80%;
+      .uk-navbar-nav {
+        float: right;
+      }
+    }
+
+    .uk-border {
+      border: 1px solid #e5e5e5;
+    }
+
+    .flag-express-interest {
+      a {
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+    }
+
+
+    // Bride list.
+    .main-bride-list {
+      .layout__region--second {
+        margin: 0px auto;
+      }
+    }
+
+    .views-field-field-native-district {
+      .uk-button {
+        &:hover {
+          border: 1px solid #ff71aa;
+        }
+      }
+    }
+
+.image-size-small {
+  img {
+    max-width: 100px;
+  }
+}
+
+.image-size-medium {
+  img {
+    max-width: 150px;
+  }
+}
+
+.image-size-large {
+  img {
+    max-width: 200px;
+  }
+}
+
+.image-size-xlarge {
+  img {
+    max-width: 500px;
+  }
+}
+// Hide image title in user gallary.
+#cboxTitle {
+ display: none !important;
+}

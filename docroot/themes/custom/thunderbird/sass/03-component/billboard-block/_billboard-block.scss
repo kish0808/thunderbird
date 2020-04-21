@@ -1,0 +1,10 @@
+.billboard-block {
+  .uk-button:focus {
+    @include outline-style;
+  }
+}
+
+.region-content .billboard-block .uk-container {
+  padding-left: var(--container-padding-horizontal);
+  padding-right: var(--container-padding-horizontal);
+}

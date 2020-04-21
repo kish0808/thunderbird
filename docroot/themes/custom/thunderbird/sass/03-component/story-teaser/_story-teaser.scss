@@ -1,0 +1,28 @@
+.story-teaser__story-type,
+.story-teaser__taxonomy {
+  .uk-margin {
+    display: inline;
+    margin: 0;
+
+    &::after {
+      content: ',';
+    }
+  }
+}
+
+.story-teaser__story-type {
+  .uk-margin:last-child::after {
+    content: '';
+  }
+}
+
+
+.story-teaser__taxonomy-terms {
+  & > div {
+    display: inline;
+  }
+  
+  &:last-child .uk-margin:last-child::after {
+    content: '';
+  }
+}

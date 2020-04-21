@@ -1,0 +1,42 @@
+.form-gse-search {
+  .uk-button {
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    padding: 0;
+  }
+
+  .uk-search-input {
+    padding-right: var(--search-large-icon-width);
+  }
+}
+
+.gse-search-link {
+  .uk-navbar-toggle {
+    @include breakpoint($uk-breakpoint-m-max) {
+      font-size: var(--button-font-size);
+    }
+
+    &:focus {
+      @include outline-style;
+    }
+  }
+
+  .uk-navbar-container & {
+    @include breakpoint($uk-breakpoint-m-max) {
+      display: none;
+    }
+  }
+
+  .uk-offcanvas-bar & {
+    @include breakpoint($uk-breakpoint-m-above) {
+      display: none;
+    }
+  }
+}
+
+.gse-search-container {
+  .uk-close:focus {
+    @include outline-style;
+  }
+}

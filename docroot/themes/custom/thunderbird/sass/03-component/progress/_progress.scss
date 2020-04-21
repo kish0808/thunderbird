@@ -1,0 +1,11 @@
+progress {
+  position: relative;
+}
+
+progress:after {
+  content: attr(value)'%';
+  font-size: 11px;
+  right: -26px;
+  position: absolute;
+  top: 2px;
+}

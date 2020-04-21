@@ -1,0 +1,9 @@
+@import '../00-config/_fonts.scss';
+
+body {
+  font-family: $primary-font;
+
+  &.cke_editable {
+    padding: 0.25rem;
+  }
+}

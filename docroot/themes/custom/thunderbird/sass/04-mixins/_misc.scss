@@ -1,0 +1,14 @@
+// Default Outline Styles
+@mixin outline-style {
+  outline: 0.0625rem dotted $tertiary-color;
+  outline: 0.3125rem auto -webkit-focus-ring-color;
+}
+
+// Academic profile image full width.
+@mixin profile-image-full-width {
+  .academic-profile-block {
+    .uk-card-media-left {
+      width: 100%;
+    }
+  }
+}
